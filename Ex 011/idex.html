@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+</head>
+<body>  
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em html.</p>
+    <audio src="nope.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls>
+    <source src="nope.mp3" type="audio/mpeg">
+    <source src="nope.mp3" type="audio/ogg">
+    <source src="nope.mp3" type="audio/wav">
+    <p>Infelizmente o navegador não consegue reproduzir áudio.</p> Clique aqui para baixar o arquivo: <a href="nope.mp3">Aqui.</a>
+    </audio>
+</body>
+</html>
